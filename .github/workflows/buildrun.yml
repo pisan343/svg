@@ -1,10 +1,7 @@
 name: Basic compile, code checks, and test run
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   build:

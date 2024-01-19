@@ -17,7 +17,7 @@ ostream &Circle::write(ostream &out) const {
 }
 
 // operator>> equivalent to read the object contents
-istream &Circle::read(istream &in) {
-  in >> cx >> cy >> radius >> color;
-  return in;
+istream &Circle::read(istream &inStream) {
+  inStream >> cx >> cy >> radius >> color;
+  return inStream;
 }

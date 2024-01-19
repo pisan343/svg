@@ -22,7 +22,7 @@ public:
   virtual ostream &write(ostream &out) const = 0;
 
   // operator>> equivalent to read the object contents
-  virtual istream &read(istream &in) = 0;
+  virtual istream &read(istream &inStream) = 0;
 
   // default constructor
   SVG() = default;

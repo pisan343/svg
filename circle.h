@@ -18,7 +18,7 @@ public:
   ostream &write(ostream &out) const override;
 
   // operator>> equivalent to read the object contents
-  istream &read(istream &in) override;
+  istream &read(istream &inStream) override;
 
 private:
   // coordinates for center of circle
